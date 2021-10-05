@@ -7,7 +7,7 @@ else()
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-add_executable(cpp-rpg "src/main.cpp" "test/tester.cpp")
+add_executable(cpp-rpg "src/main.cpp")
 
 enable_testing()
 
