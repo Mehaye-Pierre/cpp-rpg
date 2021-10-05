@@ -8,7 +8,6 @@ else()
 endif()
 
 add_executable(cpp-rpg "src/main.cpp" "test/tester.cpp")
-target_compile_features(cpp-rpg PRIVATE cxx_lambda_init_captures)
 
 enable_testing()
 
